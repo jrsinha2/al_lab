@@ -1,0 +1,12 @@
+char pool[13];
+int highcard(char* a);
+int lookup(char c);
+void swap(char *xp, char *yp);
+int twopairs(char *a,int l,int r,int no);
+int pair(char *a,int l,int r);
+int three(char *a,int l,int r);
+int straight(char *a,int l,int r);
+int flush(char *a,int l,int r);
+int fullhouse(char *a);
+int four(char *a,int l,int r);
+int straightflush(char *a);
